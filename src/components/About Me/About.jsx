@@ -45,7 +45,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="bg-white min-h-screen w-screen px-6 py-12 flex flex-col items-center">
+    <div className="bg-black min-h-screen w-screen px-6 py-12 flex flex-col items-center">
       {/* ABOUT ME Heading */}
       <h1
         ref={headingRef}

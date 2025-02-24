@@ -77,7 +77,7 @@ const Hero = () => {
                   className="w-full h-[80vh] bg-transparent absolute top-0 left-0 z-20 flex justify-center"
                   style={{ position: "absolute", top: "20vh" }} 
                 >
-                  {/* <WhaleScene /> */}
+                  <WhaleScene />
                 </div>
                 <div className="w-2/5 z-40">
                 <motion.button
