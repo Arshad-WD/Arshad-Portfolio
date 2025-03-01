@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://arshad-portfolio-delta.vercel.app/sitemap.xml
