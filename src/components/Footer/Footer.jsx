@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 //Images
 import GitHub from '../../assets/github.jpeg';
 import LinkedIn from '../../assets/linkedin.jpeg';
-import xImage from '../../assets/x.jpeg';
+import xImage from '../../assets/X.jpeg';
 
 gsap.registerPlugin(ScrollTrigger);
 
