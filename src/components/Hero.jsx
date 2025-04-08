@@ -73,7 +73,7 @@ const Hero = () => {
   return (
     <>
       {/* Desktop View */}
-      <div className="relative h-dvh w-screen overflow-x-hidden hidden sm:block">
+      <div className="relative h-dvh w-screen overflow-hidden hidden sm:block">
         <div
           ref={heroRef}
           className="relative z-10 h-dvh w-screen overflow-x-hidden rounded-lg bg-blue-100"
