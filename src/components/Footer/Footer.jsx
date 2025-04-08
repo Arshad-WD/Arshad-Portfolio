@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 //Images
 import GitHub from '../../assets/github.jpeg';
 import LinkedIn from '../../assets/linkedin.jpeg';
-import X from '../../assets/x.jpeg';
+import xImage from '../../assets/x.jpeg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -51,7 +51,7 @@ const Footer = () => {
   {[
     { icon: GitHub, link: "https://github.com/Arshad-WD", rounded: true },
     { icon: LinkedIn, link: "https://www.linkedin.com/in/arshad-chaudhary-388312288/", rounded: true },
-    { icon: X, link: "https://x.com/dark_arsha78045?s=21", rounded: true },
+    { icon: xImage, link: "https://x.com/dark_arsha78045?s=21", rounded: true },
   ].map(({ icon, link, rounded }, index) => (
     <motion.a
       key={index}
