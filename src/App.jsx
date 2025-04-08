@@ -4,7 +4,7 @@ import Teachstack from './components/Tach Stack/Techstack';
 import About from './components/About Me/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
-// import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return(
@@ -20,10 +20,12 @@ const App = () => {
       <section className='relative min-h-screen bg-black '>
       <Projects />
       </section>
-      <section className='relative min-h-screen bg-white '>
+      <section className='relative min-h-screen bg-white overflow-hidden'>
       <Contact />
       </section>
-      {/* <Footer /> */}
+      <section className="relative bg-gray-900 text-white min-h-[50vh] flex items-center justify-center" >
+      <Footer />
+      </section>
     </main>
   )
 }

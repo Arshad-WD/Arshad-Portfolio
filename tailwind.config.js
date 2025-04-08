@@ -8,6 +8,12 @@ export default {
     extend: {
       fontFamily: {
         transform: ["Transformer" , 'Blackletter'],
+      },
+      textColor:{
+        transparent: 'transparent',
+      },
+      stroke:{
+        black:'#000000',
       }
     },
   },

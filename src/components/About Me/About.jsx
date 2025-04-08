@@ -58,7 +58,7 @@ const About = () => {
       {/* Description Section with Scroll Scrub Animation */}
       <div
         ref={descRef}
-        className="text-2xl text-gray-300 leading-relaxed max-w-2xl text-center mt-12 font-semibold font-transform"
+        className="text-2xl text-gray-300 leading-relaxed max-w-2xl text-center mt-12 font-semibold"
       >
         {"I am in third year of my engineering, and I am passionate about building modern, interactive web experiences. I also enjoy learning cybersecurity, along with working with cutting-edge technologies like React, Tailwind CSS to create smooth, engaging interfaces.".split(" ").map((word, index) => (
           <span key={index} className="word">

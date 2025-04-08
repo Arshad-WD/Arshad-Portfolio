@@ -4,7 +4,7 @@ import { useGLTF, useAnimations } from '@react-three/drei';
 
 const Model = () => {
   const whaleRef = useRef();
-  const { scene, animations } = useGLTF('/scene.gltf');
+  const { scene, animations } = useGLTF('/scene.gltf',true);
   const { actions } = useAnimations(animations, whaleRef);
 
   const [targetX, setTargetX] = useState(0);
@@ -17,15 +17,14 @@ const Model = () => {
     }
   }, [actions, animations]);
 
-  // Mouse move effect with delay (using lerp)
   useEffect(() => {
     const handleMouseMove = (event) => {
       const { innerWidth, innerHeight } = window;
-      const x = (event.clientX / innerWidth - 0.5) * 0.3; // Small movement effect
+      const x = (event.clientX / innerWidth - 0.5) * 0.3; 
       const y = (event.clientY / innerHeight - 0.5) * 0.3;
 
       // Update target position for the whale to move towards
-      setTargetX(4*x);
+      setTargetX(3*x);
       setTargetY(y);
     };
 
